@@ -18,9 +18,9 @@ clean and consistent format. Some of the techniques I used include:
     * Removing special characters
     * Tokenization
     * Filtering Stop words
-    * Lemmatization
-                                                                     
+    * Lemmatization                                                                    
 all were achieved by the `nltk` library in python.
+
 3. Text features was converted to a corresponding numerical representation using the **TF-IDF** method.
 4. I then build the Feed Forward Deep Neural Network,consisting of 3 layers; for the binary classification problem, *sigmoid* activation function was used in the output
 layer, a loss function of *binary_crossentropy* and *optimizer* of adam used.
