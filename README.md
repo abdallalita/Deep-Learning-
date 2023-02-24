@@ -13,13 +13,15 @@ that will optimize the news headlines in a way that it does not create an impres
 #### Summarization
 1. I **cleaned** the data of any missing values and applied `langdetect` function to underatnd which language the data is in.
 2. **Text Preprocessing** - just like data preprocessing, text preprocessing involves cleaning **text** data of all the noise anf wrong formats and tranforming text into a clean
-clean and consistent format. Some of the techniques I used include: * Lower Case conversion
-                                                                    * Removing special characters
-                                                                    * Tokenization
-                                                                    * Filtering Stop words
-                                                                    * Lemmatization
+clean and consistent format. Some of the techniques I used include: 
+    * Lower Case conversion
+    * Removing special characters
+    * Tokenization
+    * Filtering Stop words
+    * Lemmatization
+                                                                     
 all were achieved by the `nltk` library in python.
-3. Text features was converted to a corresponding numerical representation using the **TF-IDF method.
+3. Text features was converted to a corresponding numerical representation using the **TF-IDF** method.
 4. I then build the Feed Forward Deep Neural Network,consisting of 3 layers; for the binary classification problem, *sigmoid* activation function was used in the output
 layer, a loss function of *binary_crossentropy* and *optimizer* of adam used.
 5. Hyperparameters: epoch and batch size was set and the model was trained with a validation split.
