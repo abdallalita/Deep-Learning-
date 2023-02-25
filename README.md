@@ -1,15 +1,19 @@
 ## [Sarcasm Detection Classification From Headline News](#Introduction-1)
-## [Sentiment Analysis for a Netflix show Reviews](#Introduction-2)
+## [Sentiment Analysis for a Netflix Original show Reviews](#Introduction-2)
 ### Introduction 1
+
 Sarcasm is a form of verbal irony that is intended to **mock** or convey the opposite meaning of what is actually said. Sarcasm can be risky in news headlines as it can
 easily be **misinterpreted** or **offend certain readers** who might feel that the news organization is making light of a serious issue or mocking a particular group.
 Hence, readers may be less likely to read or share the organization's content in future leading to losses and above all **harm the reputation**
 of the news organization. It can also **undermine the credibility and professionalism of news organization** as it can come across as
 unprofessional or biased. Threfore it is important for news organizations to carefully detect sarcasm from their headlines so as to consider the potential effect of it.
+
 ### Overview
+
 The **main objective** is to build a binary classification model that can successfully detect 
 whether or not a news headline is sarcastic. As a data scientist for a news agency, I aim to to build a model
 that will optimize the news headlines in a way that it does not create an impression of sarcasm for a reader
+
 --
 
 The dataset has 12506 observations and two features. The **headlines column** contains all the news headlines whereas target column consists of class labels for each news headline.
