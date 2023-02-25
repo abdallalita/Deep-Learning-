@@ -1,5 +1,5 @@
 ## [Sarcasm Detection Classification From Headline News](#Introduction-1)
-## [Sentiment Analysis for a Netflix show Reviews] (#Introduction-2)
+## [Sentiment Analysis for a Netflix show Reviews](#Introduction-2)
 ### Introduction 1
 Sarcasm is a form of verbal irony that is intended to **mock** or convey the opposite meaning of what is actually said. Sarcasm can be risky in news headlines as it can
 easily be **misinterpreted** or **offend certain readers** who might feel that the news organization is making light of a serious issue or mocking a particular group.
@@ -43,16 +43,20 @@ Sentiment analysis is important for several reasons:
    * Crisis management: Sentiment analysis can also be useful in identifying potential crises before they become public, allowing businesses to take proactive measures      to address issues and prevent negative sentiment from spreading.
 Overall, sentiment analysis can provide valuable insights into consumer attitudes and opinions, allowing businesses to make informed decisions and take proactive measures to improve their products, services, and reputation.
 ### Overview
+
 The **main objective** is to perform sentiment analysis on Netflix movie reviews is to understand the emotional tone and attitude of the viewers towards the movies. By analyzing the sentiment of the reviews, Netflix can gain insights into how viewers perceive and react to their content.
 For example:
    * If a particular movie receives overwhelmingly **positive reviews**, Netflix can use that information to promote the movie to other viewers who are likely to enjoy    * Similarly, if a movie receives **negative reviews**, Netflix can use that information to improve its recommendations and identify areas for improvement.
+  
 --
 
 This dataset contains 25000 Text data Reviews and two features. The Text column contains all the customer reviews on a particular show, say Netflix Original show and a Target column that contains class labels for each of the reviews. The dataset is balanced and so there was no need for resampling.
 #### Summarization
+
 After perfoming Data Cleaning to the entire dataset and confirming that the reviws are in one common language, I went ahead and preprocess the Text data uisng various techniques such as: Lower case conversion, Removing special Characters/Punctuations, Word Tokenization, Removing stop words and Lemmatization.
 I then visualized the most commonly used words in all Reviews using WorldCloud.
 Lastly I performed Sentiment Analysis using the [VADER](https://towardsdatascience.com/sentimental-analysis-using-vader-a3415fef7664) method.
+
 --
 I was able to classify each of the reviews as either Negative or Positive based on their Polarity scores and the compound score, which is  an aggregation of (negative, neutral and positive scores).
 I ran a random unseen review on the Vader function, and got the polarity scores.
