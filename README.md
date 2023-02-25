@@ -11,8 +11,8 @@ unprofessional or biased. Threfore it is important for news organizations to car
 ### Overview
 
 The **main objective** is to build a binary classification model that can successfully detect 
-whether or not a news headline is sarcastic. As a data scientist for a news agency, I aim to to build a model
-that will optimize the news headlines in a way that it does not create an impression of sarcasm for a reader
+whether or not a news headline is sarcastic. As a data scientist for a news agency, I aim to build a **Feed Forward Deep Neural Network** model
+that will classify any new headlines as either Sarcastic or Not sarcastic to optimize the news headlines in a way that it does not create an impression of sarcasm for a reader.
 
 --
 
