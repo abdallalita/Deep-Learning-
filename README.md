@@ -73,6 +73,8 @@ Today, it is widely recognized as one of the most advanced language models avail
 ChatGPT gained popularity on Twitter primarily through its ability to engage in interesting and often entertaining conversations with users. Many Twitter users were impressed by the model's ability to generate coherent and relevant responses to a wide range of topics, from current events to personal anecdotes. 
 However, It is more interesting to see how people's perceptions and attitudes towards ChatGPT change over time
 **This brings us to our main topic of concern on how people are welcoming or perceiving the ChatGPT worldwide on social media platforms like Twitter**.
+
+
 ### Overview
 The **main objective** is to perform sentiment analysis on ChatGPT Tweets on Twitter to understand the public sentiments towards ChatGPT in general or determine whether people genrally have a postive or negative attittudes towards ChatGPT and its capabilities.
 
@@ -80,10 +82,11 @@ The **main objective** is to perform sentiment analysis on ChatGPT Tweets on Twi
 ---
 
 This dataset contains a collection of tweets with the hashtag #chatgpt. The tweets were scraped from Twitter and cover a range of topics related to the ChatGPT language model. The dataset includes the following information for each tweet:
-    *Tweet text
-    *User information (username, user ID, location, etc.)
-    *Retweets count
-    *Likes Count
+For example
+   * Tweet text
+   * User information (username, user ID, location, etc.)
+   * Retweets count
+   * Likes Count
 There are 50001 Tweets, with no missing values.
 #### Summarization
 I performed data Cleaning on the entire dataset: removing irrelevant columns. Although the Tweets were in multiple language, English was the most common
